@@ -1,0 +1,70 @@
+##################################################################
+Newnigma2 team proudly presents:
+Newnigma2 v3.3.2
+##################################################################
+
+Basics:
+
+    Enigma2 3.2.2: 27.03.2012
+    Enigma2 Plugins: 29.03.2012
+    Newnigma2 Plugins: 29.03.2012
+
+
+DM 8000 HD PVR
+
+    driver: 22.03.2012
+    secondstage: 84
+    kernel: 2.6.18
+
+
+
+Notice: Onlineupdate from v3.3.* is possible.
+
+Changes:
+
+    Update: libdvdnav and libdvdread
+    Update: brushedalu-hd, elgato-hd, dmconcinnity-hd, kerni-hd1, kerni-hd1r2 and yads-hd with new screen (see below)
+    Bugfix: fixed newnigma2-hd (RC's)
+    Bugfix: fixed possible crash with infinity.mod.newnigma2-hd
+    Bugfix: fixed double entries in the device list
+    Bugfix: fixed devicemanager fusermount (djmount)
+    Bugfix: fixed picon flash destination (OSD Settings)
+    Bugfix: fixed default settings, default RC dm500hd, dm7020hd
+    Bugfix: fixed Configsaver (keymap_custom.xml)
+    Added: minidlna (click here for more information)
+    Added: enigma2-plugin-systemplugins-3dsettings (thx to Dr.Best)
+    Added: enigma2-plugin-systemplugins-vps
+    Added: enigma2-plugin-extensions-eurotictv (thx to DMM)
+    Added: enigma2-plugin-extensions-ecasa (thx to ritzmo)
+    Added: util-linux-ng-blkid and kernel-module-cdc-acm to our feeds
+    New: plugin enigma2-plugin-newnigma2-sportportal (click here for more information)
+    New: plugin enigma2-plugin-newnigma2-mediatomb with gui configuration (click here for more information)
+    New: plugin enigma2-plugin-newnigma2-eporner (click here for more information)
+    New: userfriendly FTP feature of enigma2-plugin-newnigma2-vpn
+
+    For Skinners: new screens (menu -> settings -> system -> harddisk):
+    HarddiskDriveSelection - HarddiskDriveSetup - HarddiskMountpointBrowser
+
+    Since e2 v3.2.2 u have to put following screen into your skin.xml: RecordPathsSettings. This screen is removed out of the plugin and it would crash, if u dont have it in your skin.xml
+
+    Info: ftdi patch for kernel 2.6.18 added. that patch enables triple/quad reader support.
+
+    Info: google gears support has ended. please uninstall it, if u installed it.
+
+    Info: mkv + idx/sub not longer work with new e2. pls feel free to post in dmm forum.
+
+    changelog e2: dm8000
+
+
+
+
+
+info: since release of e2 v. 3.2 there is no dm7025 support yet. that's what dmm said.
+
+Multiboot: No support for multiboot. Not planned. No need for such a tool.
+
+GP3wizard: No support for gp3wizard. Probably not running. Not needed in Newnigma2 environment.
+
+
+Your
+Newnigma2 Team 
